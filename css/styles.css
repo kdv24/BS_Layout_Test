@@ -1,0 +1,97 @@
+body { 
+	background-color: gray;
+	padding: 0px 30px;
+	margin: 0px
+}
+
+header {
+	background-color: lightgray;
+	margin-top: 0px;
+}
+
+h1 {
+	padding: 10px;
+	margin: 0px;
+}
+
+/* initial link color */
+a {
+	color: #0276FD;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: purple;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+
+
+.options ul {
+	background-color: pink;
+	width: 100%;
+	float: left;
+	list-style: none;
+	padding: 5px 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+
+.options li {
+	display: inline;
+	padding: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+
+#columns {
+	width: 100%;
+	display: inline;
+	float: left;
+
+}
+
+.left_column {
+	background-color: lightgreen;
+	width: 63%;
+	padding: 1%;
+	float: left;
+	height: 1000px;
+}
+
+.right_column {
+	background-color: lightblue;
+	width: 33%;
+	padding: 1%;
+	float: left;
+	height: 1000px;
+}
+
+/*************************
+	RESPONSIVE CSS from Bootstrap
+**************************/
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
+
+
+
+
+
+
