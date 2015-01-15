@@ -1,97 +1,69 @@
-body { 
+html {
+	margin: 0% 5%;
 	background-color: gray;
-	padding: 0px 30px;
-	margin: 0px
-}
-
-header {
-	background-color: lightgray;
-	margin-top: 0px;
 }
 
 h1 {
-	padding: 10px;
-	margin: 0px;
+	background-color: lightgray;
+	padding: 1% 2%;
+	margin-bottom: 0%;
 }
-
-/* initial link color */
-a {
-	color: #0276FD;
-}
-
-/* unvisited link */
-a:link {
-    color: blue;
-}
-
-/* visited link */
-a:visited {
-    color: red;
-}
-
-/* mouse over link */
-a:hover {
-    color: purple;
-}
-
-/* selected link */
-a:active {
-    color: green;
-}
-
-
-.options ul {
+.navbar-static-top {
 	background-color: pink;
-	width: 100%;
+	padding: 1% 0% 0%;
+	margin: 0%;
+	width:100%;
 	float: left;
-	list-style: none;
-	padding: 5px 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	}
+}
 
-.options li {
-	display: inline;
-	padding: 3px;
-	padding-bottom: 3px;
+a:link {
+  	color: #428bca;
+  	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+  }
+
+a:hover {
+  	color: green;
+} 
+ 
+a:active {
+	color: red;
+}
+
+
+.navbar li {
+	float: left;
+	display: inline-block;
 	text-align: left;
+	margin: 0%;
+	padding: 0%;
 }
 
-#columns {
+.row {
 	width: 100%;
-	display: inline;
-	float: left;
-
+	margin-left: 0%;
+	max-height: 768px
 }
 
-.left_column {
+#column-1 {
 	background-color: lightgreen;
-	width: 63%;
-	padding: 1%;
-	float: left;
-	height: 1000px;
+	min-height: 600px;
+	max-height: 998px;
+
+
 }
 
-.right_column {
+#column-2 {
 	background-color: lightblue;
-	width: 33%;
-	padding: 1%;
-	float: left;
-	height: 1000px;
+	min-height: 600px;
+	max-height: 768px;
 }
 
-/*************************
-	RESPONSIVE CSS from Bootstrap
-**************************/
-
-@media (max-width: @screen-xs-max) { ... }
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
-@media (min-width: @screen-lg-min) { ... }
-
-
-
-
-
-
-
+@media screen and (max-width: 991px) {
+    #column-2 {
+        	width: 100%;
+    }
+}
