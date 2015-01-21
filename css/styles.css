@@ -9,7 +9,7 @@ h1 {
 	margin-bottom: 0%;
 }
 .navbar-static-top {
-	background-color: pink;
+	background-color: #c18585;
 	padding: 1% 0% 1% 0%;
 	margin: 0%;
 	width:100%;
@@ -48,7 +48,7 @@ a:active {
 }
 
 #column-1 {
-	background-color: lightgreen;
+	background-color: #99cc99;
 	min-height: 600px;
 	max-height: 998px;
 
@@ -56,7 +56,7 @@ a:active {
 }
 
 #column-2 {
-	background-color: lightblue;
+	background-color: #8481c0;
 	min-height: 600px;
 	max-height: 768px;
 }
